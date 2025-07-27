@@ -4,6 +4,6 @@ jobs:
     run-essencial-scripts:
         runs-on: ubutu-latest
         steps:
-            - run: build
-            - run: test
-            - run: lint
+            - uses: build
+            - uses: test
+            - uses: lint
