@@ -5,5 +5,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Get Code
-              uses: actions/checkout
+              uses: actions/checkout@v3
       
