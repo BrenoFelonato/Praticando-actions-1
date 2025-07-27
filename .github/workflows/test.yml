@@ -4,6 +4,6 @@ jobs:
     run-essencial-scripts:
         runs-on: ubuntu-latest
         steps:
-            - uses: build
-            - uses: test
-            - uses: lint
+            - run: build
+            - run: test
+            - run: lint
