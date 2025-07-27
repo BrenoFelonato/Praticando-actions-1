@@ -11,4 +11,4 @@ jobs:
         - name: install dependencies
           run: npm ci
         - name: Output Github context
-          run: echo "${{ toJSON(github) }}"
+          run: echo "${{ toJSON(github.event) }}"
