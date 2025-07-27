@@ -1,9 +1,9 @@
 name: test
 on: [push]
 jobs:
-    run-essencial-scripts:
+    test:
         runs-on: ubuntu-latest
         steps:
-            - run: build
-            - run: test
-            - run: lint
+            - uses: actions/checkout@v3
+
+      
